@@ -9,15 +9,21 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/MENU.unity
+    path: Assets/Scenes/1. MENU.unity
     guid: a215b81941273044cb742490b5cf987b
   - enabled: 1
-    path: Assets/Scenes/Instrucciones.unity
+    path: Assets/Scenes/1.1 Instrucciones.unity
     guid: 009fbddcddf3b1c4faba9c1ff56313e5
   - enabled: 1
-    path: Assets/Scenes/SelLab.unity
+    path: Assets/Scenes/2. SelLab.unity
     guid: b9da83e00d5a69444b0bd51c11800fcc
   - enabled: 1
-    path: Assets/Scenes/MasaResorte.unity
+    path: "Assets/Scenes/2.1 Ca\xEDda libre.unity"
+    guid: 7d3786bc6c97f68499ee057ba4734873
+  - enabled: 1
+    path: Assets/Scenes/2.2 Colisiones 2D.unity
+    guid: 4f67d4700fd28344ba9ddb0d09f6cdb3
+  - enabled: 1
+    path: Assets/Scenes/2.3 MasaResorte.unity
     guid: 290602495526ed6438379aeaeff4015d
   m_configObjects: {}
