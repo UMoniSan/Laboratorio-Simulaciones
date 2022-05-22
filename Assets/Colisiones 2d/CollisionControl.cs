@@ -7,21 +7,45 @@ using UnityEngine;
 
 public class CollisionControl : MonoBehaviour
 {
+    
+    float vx1, vy1, vx2, vy2;
+    private string input; // Almacena lo que escriba el usuario
+    
+    // Convertir entrada a float
+    public void ReadStringInput1(string s)
+    {
+        input = s;        
+        float.TryParse(input, out vx1);
+    }
+    public void ReadStringInput2(string s)
+    {
+        input = s;        
+        float.TryParse(input, out vy1);
+    }
+    public void ReadStringInput3(string s)
+    {
+        input = s;        
+        float.TryParse(input, out vx2);
+    }
+    public void ReadStringInput4(string s)
+    {
+        input = s;        
+        float.TryParse(input, out vy2);
+    }
+
     // Objetos
     public Transform Sphere_1;
     public Transform Sphere_2;
     public GameObject Parent;
     // Atributos de las esferas
-    public float ang = 0.0f;
-    public float vx1 = 2f, vy1 = 2f, vx2 = -0f, vy2 = -0f;
-    public float px1 = 0.0f, py1 = 0.0f, px2 = 4f, py2 = 4f;
+    public float ang = 0.0f;public float px1 = 0.0f, py1 = 0.0f, px2 = 4f, py2 = 4f;
     public float m1 = 1.0f, m2 = 1.0f;
     public float e = 1.0f;
     public float radio_s = 0.5f;
 
     // ----------------------------------------------------------------------------------------
 
-    void Start()
+    public void InicioLab()
     {
         // Obtener esferas
         Sphere_1 = this.gameObject.transform.GetChild(0);
@@ -38,7 +62,6 @@ public class CollisionControl : MonoBehaviour
 
     void Update()
     {
-
         // Datos para recalcular las velocidades
         float aux = 1.0f / (m1 + m2);
         float vp1, vn1, vp2, vn2;

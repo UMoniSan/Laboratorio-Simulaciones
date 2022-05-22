@@ -7,16 +7,6 @@ public class cantgotas : MonoBehaviour
     int cgotas;
     public GameObject objeto; // Referencia a objeto de juego gota de lluvia
     private string input; // Almacena lo que escriba el usuario
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
-    }    
     
     // Convertir entrada a int
     public void ReadStringInput(string s)
