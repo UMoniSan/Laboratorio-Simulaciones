@@ -48,6 +48,10 @@
      <Compile Include="Assets\Caída libre\cantgotas.cs" />
      <Compile Include="Assets\scripts\Pausa.cs" />
      <Compile Include="Assets\scripts\Resorte1.cs" />
+     <Compile Include="Assets\Barco\WaterFloat.cs" />
+     <Compile Include="Assets\Barco\WaterBoat.cs" />
+     <Compile Include="Assets\Barco\Waves.cs" />
+     <Compile Include="Assets\Barco\PhysicsHelper.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -642,6 +646,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -687,6 +694,9 @@
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -707,12 +717,6 @@
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>C:\Users\Asus\Documents\GitHub\LaboratorioUnity\Laboratorio-Simulaciones\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>

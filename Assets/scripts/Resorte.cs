@@ -136,5 +136,4 @@ public float masa, miu, k, distancia, velInicial;
     newVelocidad = velocidad + (k1 / 6) + (k2 / 3) + (k3 / 3) + (k4 / 6);
     return newVelocidad;
   }
-
 }
