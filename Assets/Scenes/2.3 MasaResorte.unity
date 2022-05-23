@@ -315,7 +315,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 3
 --- !u!222 &181941390
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -511,11 +511,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 880358f1e0eaf544ca274fc3209e5be9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masa: 0
-  miu: 0
-  k: 0
-  distancia: 0
-  velInicial: 0
+  masa: 1
+  miu: 1
+  k: 19
+  distancia: -5
+  velInicial: 5
 --- !u!1 &380572076
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,19 +888,21 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71e29459f92c7644988fec4ba787f481, type: 3}
+    m_Font: {fileID: 12800000, guid: 8651a670f8696f7438f81e9ef6f35baf, type: 3}
     m_FontSize: 9
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Explicaci\xF3n del laboratorio]"
+  m_Text: "Masa - resorte es la acci\xF3n de una masa que depende del movimiento
+    arm\xF3nico de un resorte, la velocidad se ir\xE1 reduciendo dependiendo de la
+    fricci\xF3n del suelo y la constante de elasticidad."
 --- !u!222 &474852302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1454,7 +1456,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 0
+  m_Text: 3
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -1610,7 +1612,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 1
+  m_Text: 4
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -2348,7 +2350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -5
+  m_Text: 5
 --- !u!222 &1102469492
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3185,7 +3187,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 4
 --- !u!222 &1669569333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3386,7 +3388,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 19,5
+  m_Text: 15
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -3499,7 +3501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 19,5
+  m_Text: 15
 --- !u!222 &1697382714
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3519,6 +3521,7 @@ GameObject:
   - component: {fileID: 1763012612}
   - component: {fileID: 1763012614}
   - component: {fileID: 1763012613}
+  - component: {fileID: 1763012615}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -3587,6 +3590,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763012611}
   m_CullTransparentMesh: 1
+--- !u!114 &1763012615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763012611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9725cadb220a4f04e85c38803b9a2ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1763798585
 GameObject:
   m_ObjectHideFlags: 0
@@ -4049,7 +4064,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: -5
+  m_Text: 5
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0

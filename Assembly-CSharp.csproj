@@ -52,6 +52,7 @@
      <Compile Include="Assets\Barco\WaterBoat.cs" />
      <Compile Include="Assets\Barco\Waves.cs" />
      <Compile Include="Assets\Barco\PhysicsHelper.cs" />
+     <Compile Include="Assets\scripts\TiempoEnPantalla.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

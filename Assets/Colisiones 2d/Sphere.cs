@@ -8,18 +8,9 @@ public class Sphere : MonoBehaviour
     float velocidadX = 0.0f;
     float velocidadY = 0.0f;
     float velocidadZ = 0.0f;
-
-    void Start()
+    
+    public Vector3 getVelocidad()
     {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
-    public Vector3 getVelocidad() {
         return new Vector3(velocidadX, velocidadY, velocidadZ);
     }
 

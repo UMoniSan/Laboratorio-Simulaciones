@@ -1805,13 +1805,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Explicaci\xF3n del laboratorio]"
+  m_Text: "La ca\xEDda libre es cuando un cuerpo es afectado solamente por la gravedad.
+    Estas pueden cambiar su direcci\xF3n de forma horizontal si hay resistencia del
+    aire."
 --- !u!222 &1387369230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2832,6 +2834,7 @@ GameObject:
   - component: {fileID: 2082066356}
   - component: {fileID: 2082066358}
   - component: {fileID: 2082066357}
+  - component: {fileID: 2082066359}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -2900,3 +2903,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082066355}
   m_CullTransparentMesh: 1
+--- !u!114 &2082066359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082066355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9725cadb220a4f04e85c38803b9a2ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
